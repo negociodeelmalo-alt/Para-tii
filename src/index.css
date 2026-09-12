@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-dancing: "Dancing Script", cursive;
+  --font-playfair: "Playfair Display", serif;
+}
+
+body {
+  @apply bg-black text-white overflow-hidden;
+}
